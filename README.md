@@ -34,7 +34,7 @@ A flag triggers whether the deployment is a creation or destruction event.
 
 
 ```
-./[executable] --destroy false
+./[executable] -- destroy false
 
 ./[executable] -- destroy true
 ```
