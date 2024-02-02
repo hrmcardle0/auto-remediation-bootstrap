@@ -32,14 +32,9 @@ go build .
 
 A flag triggers whether the deployment is a creation or destruction event.
 
-creation:
 
 ```
 ./[executable] --destroy false
-```
 
-destruction:
-
-```
 ./[executable] -- destroy true
 ```
