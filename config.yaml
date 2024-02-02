@@ -1,11 +1,11 @@
-target_role_name: CyberSec-AutoRemediation-TargetRole
-central_account: 458305147808
+target_role_name: AutoRemediation-TargetRole
+central_account: 123412341234
 actions:
   - s3:CreateBucket
   - s3:DeleteBucket
   - ec2:RunInstance
 management_role_name: AutoRemediationManagementRole
 target_accounts:
-  - 315958533332
-eventbridge_role_name: CyberSec-AutoRemediation-EventBridge
-central_event_bus_arn: arn:aws:events:eu-west-1:458305147808:event-bus/cross-account-security-alerts
+  - 456745674567
+eventbridge_role_name: AutoRemediation-EventBridge
+central_event_bus_arn: arn:aws:events:eu-west-1:[account]:event-bus/[event-bus-name]
